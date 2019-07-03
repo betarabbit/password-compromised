@@ -1,0 +1,14 @@
+name: password_compromised
+description: A starting point for Dart libraries or applications.
+version: 1.0.0
+author: matx2215@outlook.com
+
+environment:
+  sdk: '>=2.4.0 <3.0.0'
+
+dependencies:
+ random_string: ^1.1.0
+
+dev_dependencies:
+  pedantic: ^1.7.0
+  test: ^1.6.0
