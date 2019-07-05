@@ -1,5 +1,5 @@
 # password-compromised
-![License](https://img.shields.io/badge/license-MIT-blue.svg)![Build](https://travis-ci.org/betarabbit/password-compromised.svg?branch=master)
+![License](https://img.shields.io/badge/license-MIT-blue.svg) ![Build](https://travis-ci.org/betarabbit/password-compromised.svg?branch=master)
 
 ## Introduction
 `password-compromised` is a dart package inspired by [password-leak](https://github.com/mathiscode/password-leak) that can be used to determine if a password is compromised by checking with the [Have I Been Pwned API](https://haveibeenpwned.com/API/).
