@@ -1,5 +1,5 @@
 name: password_compromised
-description: A starting point for Dart libraries or applications.
+description: A dart package to determine if a password is compromised by checking with the Have I Been Pwned API.
 version: 1.0.0
 author: matx2215@outlook.com
 
