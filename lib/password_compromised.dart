@@ -12,8 +12,8 @@ Future isPasswordCompromised(String password) async {
       crypto.sha1.convert(utf8.encode(password)).toString().toUpperCase();
   final firstFive = digest.substring(0, 5);
 
-  final response =
-      await http.read('https://api.pwnedpasswords.com/range/${firstFive}');
+  final response = await http
+      .read(Uri.parse('https://api.pwnedpasswords.com/range/$firstFive'));
 
   return response
       .split('\r\n')

@@ -19,7 +19,7 @@ void main() {
       expect(isPasswordCompromised('test'), completion(equals(true)));
     });
 
-    test('Password "${randomPassword}" is not compromised', () {
+    test('Password "$randomPassword" is not compromised', () {
       expect(isPasswordCompromised(randomPassword), completion(equals(false)));
     });
   });
